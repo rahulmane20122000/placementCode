@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.maindiv input,
+.maindiv button{
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+    border: none;
+   
+}
+
+.maindiv input{
+    outline: none;
+    border-bottom: 1px solid grey;
+}
