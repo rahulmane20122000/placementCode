@@ -3,24 +3,35 @@
     padding: 0;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .maindiv{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50%;
 }
 
-.maindiv input,
-.maindiv button{
-    margin: 10px;
-    height: 30px;
-    width: 250px;
-    border: none;
-   
+.maindiv h1{
+    text-align: center;
+    margin:10px 0 10px 0;
+
 }
 
 .maindiv input{
+    width: 200px;
+    height: 50px;
+    margin: 10px 0 10px 0;
+    border: none;
+    border-bottom:1px solid black;
     outline: none;
-    border-bottom: 1px solid grey;
+}
+
+.maindiv button{
+    height: 50px;
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    
 }
